@@ -67,7 +67,7 @@ class FreeplayState extends MusicBeatState
 		
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
 		
-		var titlestatebg:FlxSprite = new FlxSprite(Paths.image('notsoloading'), 0.2, 0, true, true);
+		var titlestatebg:FlxSprite = new FlxSprite.loadGraphic(Paths.image('notsoloading'));
 		titlestatebg.velocity.set(200, 110);
 		titlestatebg.updateHitbox();
 		titlestatebg.alpha = 0.5;
