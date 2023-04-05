@@ -163,15 +163,15 @@ class TitleIntroText extends MusicBeatState
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er', 'Rozebud']);
+				createCoolText(['SIG7']);
 			case 3:
 				deleteCoolText();
-				addMoreText('present');
+				addMoreText('presents');
 			case 5:
 				deleteCoolText();
-				addMoreText('In association');
+				addMoreText('Shoutouts');
 			case 6:
-				addMoreText('with');
+				addMoreText('to');
 			case 7:
 				addMoreText('newgrounds');
 				ngSpr.visible = true;
@@ -184,13 +184,13 @@ class TitleIntroText extends MusicBeatState
 				addMoreText(curWacky[1]);
 			case 12:
 				deleteCoolText();
-				addMoreText('Friday');
+				addMoreText('Friday Night');
 			case 13:
-				addMoreText('Night');
+				addMoreText('Funkin FPS PLUS');
 			case 14:
-				addMoreText('Funkin');
+				addMoreText('High Effort');
 			case 15:
-				addMoreText('FPS PLUS');
+				addMoreText('Complications');
 			case 16:
 				skipIntro();
 		}
