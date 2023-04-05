@@ -67,11 +67,12 @@ class FreeplayState extends MusicBeatState
 		
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
 		
-		var titlestatebg:FlxSprite = new FlxBackdrop(Paths.image('notsoloading'), 0.2, 0, true, true);
+		var titlestatebg:FlxSprite = new FlxSprite(Paths.image('notsoloading'), 0.2, 0, true, true);
 		titlestatebg.velocity.set(200, 110);
 		titlestatebg.updateHitbox();
 		titlestatebg.alpha = 0.5;
-		titlestatebg.screenCenter(X);
+		//titlestatebg.screenCenter(X);
+		
 		//taken from vs july plus nick title screen code (yet edited)
 		//even then, that code was taken from os engine
 		
