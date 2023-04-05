@@ -1744,7 +1744,8 @@ class PlayState extends MusicBeatState
 		
 		if (FlxG.keys.justPressed.NINE)
 			// iconP1.swapOldIcon();
-			scoreTxt.text = "Points:" + songScore + " | Combo Breaks:" + misses + " | On Time:" + truncateFsoat(accuracy, 2) + "%";
+			//code below was a diff plan
+			//scoreTxt.text = "Points:" + songScore + " | Combo Breaks:" + misses + " | On Time:" + truncateFsoat(accuracy, 2) + "%";
 
 
 		if (FlxG.keys.justPressed.EIGHT){
