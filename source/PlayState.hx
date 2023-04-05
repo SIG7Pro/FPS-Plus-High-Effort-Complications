@@ -1743,7 +1743,8 @@ class PlayState extends MusicBeatState
 			switchState(new Charting()); */
 		
 		if (FlxG.keys.justPressed.NINE)
-			iconP1.swapOldIcon();
+			// iconP1.swapOldIcon();
+			scoreTxt.text = "Points:" + songScore + " | Combo Breaks:" + misses + " | On Time:" + truncateFsoat(accuracy, 2) + "%";
 
 
 		if (FlxG.keys.justPressed.EIGHT){
@@ -2182,7 +2183,6 @@ class PlayState extends MusicBeatState
 
 		songScore += score;
 
-		comboUI.ratingPopup(daRating);
 
 		if(combo >= minCombo)
 			comboUI.comboPopup(combo);
