@@ -131,8 +131,8 @@ class PauseSubState extends MusicBeatSubstate
 						default:
 							PlayState.instance.switchState(new MainMenuState());
 					}
-				case "Exit Game":
-					sys.exit;
+				//case "Exit Game":
+				//	sys.exit;
 			}
 		}
 	}
