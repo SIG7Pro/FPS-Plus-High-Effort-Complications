@@ -78,7 +78,7 @@ class FreeplayState extends MusicBeatState
 		//even then this code doesn't work for me
 		
 		add(bg);
-		//add(titlestatebg);
+		//
 
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
