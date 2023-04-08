@@ -1,13 +1,17 @@
 ![](/art/readme/logo.png)
 
-*Finally, it's open source.*
+*This is a pain to make Actions scripts of.*
 
-# Friday Night Funkin' FPS Plus
-Friday Night Funkin' FPS Plus is a mod of Friday Night Funkin' that aims to improve gameplay and add quality of life features.
+# Friday Night Funkin' FPS Plus: High Effort Complications
+This is a mod based off of the game known as Friday Night Funkin, built off of the FPS Plus mod by RoseBud.
 
-*You can find the original game here:* **[Newgrounds](https://www.newgrounds.com/portal/view/770371) - [itch.io](https://ninja-muffin24.itch.io/funkin) - [GitHub](https://github.com/ninjamuffin99/Funkin)**
+## To Do:
+- Linux Build || Requirement: Very Low || [ ]
+- OSX Build || Requirement: High || [WIP]
+- GitHub Actions Support
+- Add more to dos.
 
-## Features
+## FPS Plus' Original Features
 
 ### Increased FPS
 The orignal purpose of FPS Plus. The game has an increased framerate over the base game and even an option for a completely uncapped framerate.
