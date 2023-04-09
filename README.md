@@ -14,7 +14,7 @@ This is a mod based off of the game known as Friday Night Funkin, built off of t
 ## FPS Plus' Original Features
 
 ### Increased FPS
-The orignal purpose of FPS Plus. The game has an increased framerate over the base game and even an option for a completely uncapped framerate.
+The original purpose of FPS Plus. The game has an increased framerate over the base game and even an option for a completely uncapped framerate.
 
 ### Better Input
 Adjusts how the game handles input allowing you to hit notes more consistently.
